@@ -7,3 +7,5 @@ vi config/config.ini
 
 for start application need 
   cd public and start - "python init.py'
+  
+web call port 8081
