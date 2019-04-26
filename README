@@ -1,1 +1,9 @@
-python init.py
+Pre-start
+vi config/config.ini
+  need set next values with correct and actual extension number, API key and ApiSecret
+    ExtensionNumber = 
+    AppKey = 
+    AppSecret = 
+
+for start application need 
+  cd public and start - "python init.py'
