@@ -1,6 +1,6 @@
 Pre-start
 vi config/config.ini
-  need set next values with correct and actual extension number, API key and ApiSecret
+    # need set next values with correct and actual extension number, API key and ApiSecret
     ExtensionNumber = 
     AppKey = 
     AppSecret = 
