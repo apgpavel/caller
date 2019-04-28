@@ -1,11 +1,23 @@
-Pre-start
+<!---
+Copyright PavelG
+MTI License
+--->
+
+
+[![Codecov branch](https://img.shields.io/codecov/c/github/apgpavel/ifon/master.svg)](https://codecov.io/github/apgpavel/ifon?branch=master)
+
+# C2C caller form
+
+This is repository of C2C caller via VOIPNOW engine
+
+## Pre-start
 vi config/config.ini
     # need set next values with correct and actual extension number, API key and ApiSecret
-    ExtensionNumber = 
-    AppKey = 
-    AppSecret = 
+    ExtensionNumber =
+    AppKey =
+    AppSecret =
 
-for start application need 
+## for start application need
   cd public and start - "python init.py'
-  
-web call port 8081
+
+## web call port 8081
