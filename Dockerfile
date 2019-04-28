@@ -5,7 +5,7 @@ LABEL maintainer "apgpavel@gmail.com"
 ARG TM_VERSION=0.1
 
 RUN mkdir -p /app
-ADD . /app
+COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip

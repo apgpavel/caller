@@ -4,7 +4,7 @@ from configparser import ConfigParser
 
 # import config file to global obj
 config = ConfigParser()
-config_file = '../config/config.ini'
+config_file = 'config/config.ini'
 config.read(config_file)
 
 VN_SERVER_ADDRESS = config['default']['VnServerAddress']
