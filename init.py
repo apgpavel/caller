@@ -1,13 +1,12 @@
 # system modules
 import os, sys
-sys.path.append(os.path.abspath('../app/'))
 
 # application modules
 from caller import RingCaller
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, session, abort
 
 # init Flask config
-template_dir = os.path.abspath('../templates')
+template_dir = os.path.abspath('templates')
 app = Flask(__name__, template_folder=template_dir)
 app.config['SESSION_PERMANENT'] = False
 app.config['SECRET_KEY'] = os.urandom(24)
