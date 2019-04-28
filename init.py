@@ -1,9 +1,9 @@
 # system modules
-import os, sys
+import os
 
 # application modules
-from caller import RingCaller
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory, session, abort
+from include.caller import RingCaller
+from flask import Flask, render_template, request
 
 # init Flask config
 template_dir = os.path.abspath('templates')
