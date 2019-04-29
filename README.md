@@ -12,7 +12,8 @@ This is repository of C2C caller via VOIPNOW engine
     Python3.5
 
 ## Pre-start
-vi config/config.ini
+
+    vi config/config.ini
     # need set next values with correct and actual extension number, API key and ApiSecret
     
     ExtensionNumber =
