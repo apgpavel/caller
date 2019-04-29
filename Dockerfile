@@ -9,7 +9,7 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip
-RUN pip install -r /app/requirements.txt
+RUN pip install -r requirements.txt
 RUN chmod -R 444 /app
 
 CMD [ "python", "./init.py" ]
