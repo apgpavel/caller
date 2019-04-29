@@ -3,7 +3,7 @@ Copyright PavelG
 MIT License
 --->
 
-# C2C forma / C2C caller form
+# C2C forma dialer / C2C caller form
 
 This is repository of C2C caller via VOIPNOW engine
 
