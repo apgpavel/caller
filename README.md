@@ -31,6 +31,6 @@ This is repository of C2C caller via VOIPNOW engine
 or
 
     docker build -t ifonprod
-    docker run --rm -d -p 80:8081 ifonprod:latest
+    docker run --rm -d -p 80:8081 ifonprod:latest .
 
 
