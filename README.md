@@ -15,7 +15,11 @@ vi config/config.ini
     AppKey =
     AppSecret =
 
-## for start application need
-  cd public and start - "python init.py'
+## for start application need start command in the root folder of project
 
-## web call port 8081
+    cd public and start - "python init.py'
+    or
+    docker build -t ifonprod
+    docker run --rm -d -p 80:8081 ifonprod:latest
+
+
