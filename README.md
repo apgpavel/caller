@@ -9,7 +9,7 @@ This is repository of C2C caller via VOIPNOW engine
 
 ## Wymagania / Recuirements
 
-    Python3.5
+    Python version 3.5 or 3.6 
 
 ## Pre-start
 
